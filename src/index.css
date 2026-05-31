@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Anton';
+  src: url('/fonts/FOT-Rodin Pro DB.otf') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('/fonts/FOT-Rodin Pro DB.otf') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/FOT-Rodin Pro DB.otf') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('/fonts/FOT-Rodin Pro DB.otf') format('opentype');
+  font-style: normal;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #000;
+  overflow: hidden;
+}
+
+/* Global Typography Enhancements for Spandan's Portfolio */
+
+/* Base font-weight increase across standard elements (+200 units to 700 bold) */
+body, nav, a, span, div, p, li, img, video {
+  font-weight: 900 !important;
+  -webkit-text-stroke: 0.5px currentcolor;
+}
+
+/* Extra bold for display headings and titles */
+.p3-label-base,
+.resume-title,
+.resume-list-tag,
+.resume-rank-number,
+.resume-detail-top-title,
+.resume-detail-top-index,
+.sc-label,
+.sc-role,
+.sc-stat-num,
+.sc-info-bar-count,
+.resume-coming-soon-title,
+.resume-experience-title,
+.p3-name-tag {
+  font-weight: 900 !important;
+  -webkit-text-stroke: 1.2px currentcolor;
+}
+
+/* Medium-bold for body descriptions, URLs, and facts */
+.resume-detail-bullet,
+.resume-coming-soon-desc,
+.resume-experience-desc,
+.sc-reveal-upper-line,
+.sc-reveal-lower-bar,
+.sc-info-bar-text {
+  font-weight: 800 !important;
+  -webkit-text-stroke: 0.6px currentcolor;
+}
+
+/* Compact, tight letter spacing globally to pull characters close together */
+.p3-label-base,
+.resume-title,
+.resume-list-tag,
+.resume-rank-number,
+.resume-detail-top-title,
+.resume-detail-top-index,
+.resume-detail-row-title,
+.resume-detail-bullet,
+.resume-detail-group-title,
+.sc-label,
+.sc-role,
+.sc-stat-num,
+.sc-stat-tag,
+.sc-info-bar-text,
+.sc-info-bar-count,
+.sc-reveal-upper-line,
+.sc-reveal-lower-bar,
+.resume-subtitle,
+.resume-badge-text,
+.resume-rank-label,
+.resume-detail-top-progress,
+.resume-detail-row-index,
+.resume-detail-status,
+.resume-detail-bottom-title,
+.resume-coming-soon-badge,
+.resume-coming-soon-title,
+.resume-coming-soon-desc,
+.resume-experience-time,
+.resume-experience-title,
+.resume-experience-desc,
+.sc-nav-btn,
+.sc-nav-label,
+.sc-info-bar-box,
+.sc-footer-row,
+.sc-footer-key,
+.p3-name-tag,
+.p3-hint-row,
+.p3-hint-key {
+  letter-spacing: -0.06em !important;
+}
